@@ -58,12 +58,12 @@
           PUID: 1000
           PGID: 1000
           VPN_ENABLED: yes
-          VPN_USER: vpnuser
-          VPN_PASS: vpnpass
-          VPN_PROV: custom
-          ENABLE_PRIVOXY: no
-          STRICT_PORT_FORWARD: no
-          LAN_NETWORK: 192.168.1.1/24
+          VPN_USER: p3672317
+          VPN_PASS: MoP4a9p5af
+          VPN_PROV: pia
+          ENABLE_PRIVOXY: yes
+          STRICT_PORT_FORWARD: yes
+          LAN_NETWORK: 192.168.1.0/24
 
     # MAIN DEPLOYMENT #############################################################
     - name: 'Deploying {{pgrole}}'
